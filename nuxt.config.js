@@ -2,6 +2,7 @@ import pkg from './package'
 
 export default {
   mode: 'universal',
+  env: require(`./config/${process.env.NODE_ENV}.env.js`),
 
   /*
   ** Headers of the page

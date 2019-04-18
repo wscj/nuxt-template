@@ -26,7 +26,7 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-
+console.log(8, process.env.APP_ENV)
 export default {
   components: {
     Logo
