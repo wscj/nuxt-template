@@ -26,10 +26,20 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-console.log(8, process.env.APP_ENV)
+import { testGet } from '@/api'
+
 export default {
   components: {
     Logo
+  },
+  methods: {
+    async testHttp () {
+      const res = await testGet()
+      console.log(res)
+    }
+  },
+  created () {
+    this.testHttp()
   }
 }
 </script>
