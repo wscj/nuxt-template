@@ -1,6 +1,4 @@
-# nuxt-template
-
-> Nuxt业务模板
+根据之前的[总结](https://github.com/wscj/blog/blob/master/articles/2019/nuxt%E4%BD%BF%E7%94%A8%E5%B0%8F%E7%BB%93.md)，写个快速开发业务的模板，为后面节省时间
 
 ## Build Setup
 
@@ -8,7 +6,7 @@
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3131
 $ npm run dev
 
 # build for production and launch server
@@ -17,6 +15,7 @@ $ npm start
 
 # generate static project
 $ npm run generate
-```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+# pm2运行生产模式
+$ npm run pm2
+```
