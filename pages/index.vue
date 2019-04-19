@@ -35,7 +35,7 @@ export default {
   methods: {
     async testHttp () {
       const res = await testGet()
-      console.log(res)
+      // console.log(res)
     }
   },
   created () {
